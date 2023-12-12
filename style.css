@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    background: rgb(249, 241, 241);
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.home__img{
+    position: relative;
+    right: 0px;
+    width: 650px;
+}
+
+.title__name{
+    font-size: 50px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 7px;
+    color: #755B64;
+    text-align: center;
+}
+
+.title__date{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 7px;
+    color: #755B64;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.title__quote{
+    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    color: #755B64;
+    text-align: center;
+}
+
+.title__by{
+    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    color: #755B64;
+    text-align: center;
+}
+
+
+.hr__main{
+    border: 1px solid #563440;
+    border-radius: 100px;
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+
+.info__para{
+    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 1px;
+    color: #755B64;
+    text-align: center;
+    max-width: 80%;
+    margin-left: 15%;
+    line-height: 1.5;
+}
+
+
+.sub__info{
+    width: 100%;
+    height: 900px;
+    background-color: #B9B3B3;
+
+    display: flex;
+    align-items:start;
+    justify-content: start;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #f6eef0;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.activism{
+    margin-top: 5%;
+    margin-left: 7%;
+    width: 40%;
+}
+
+.legacy{
+        margin-top: 5%;
+        width: 40%;
+}
+.sub__title{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    color: #050404;
+    text-align: center;
+}
+
+.subinfo__para{
+    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 1px;
+    color: #432731;
+    text-align: justify;
+    max-width: 90%;
+    margin-top: 40px;
+    margin-left: 5%;
+    line-height: 1.5;
+}
+
+.vl {
+    border-radius: 100px;
+    margin-top: 108px;
+    border-left: 3px solid #755b64;
+    height: 680px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.footer__text{
+    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    color: #545446;
+    text-align: center;
+}
